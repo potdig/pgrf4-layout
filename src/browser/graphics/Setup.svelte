@@ -32,7 +32,7 @@
 
   onMount(async () => {
     maxWidthUpNext = divUpNext.getBoundingClientRect().width
-    maxWidthComingSoon = divComingSoon.getBoundingClientRect().width
+    maxWidthComingSoon = divComingSoon?.getBoundingClientRect().width
   })
 </script>
 
